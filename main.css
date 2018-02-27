@@ -1,0 +1,25 @@
+
+
+
+.main-nav li {
+    text-align: center;
+    list-style: none;
+}
+
+
+.main-nav a {
+    color: #666;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+}
+
+.main-nav a:hover {
+    color: white;
+    background-color: #666;
+}
+
+.main-nav a:active {
+    padding-left: 5px;
+    padding-right: 5px;
+}
