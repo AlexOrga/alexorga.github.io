@@ -26,16 +26,16 @@ function writeToDom(id, print){
     grabId.innerHTML = print;
 }
 
-writeToDom("blog1");
-
 function createBlogPosts(blog){
     var blogPost = "";
     for(var i=0; i<blog.length; i++){
-        blogPost = "<h2>" + blog[i].title + "</h2>";
-        blogPost += "<h4>" + blog[i].date + "</h4>";
-        blogPost += "<p>" + blog[i].post + "</p>";
-        writeToDom(blog[i].id, blogPost);
+        blogPost += '<div id="' + blog[i].id + '">';
+        blogPost += '<h2>' + blog[i].title + '</h2>';
+        blogPost += '<h4>' + blog[i].date + '</h4>';
+        blogPost += '<p>' + blog[i].post + '</p>';
+        blogPost += '</div>';
     }
+    writeToDom("my-blogs", blogPost);
 }
 
 createBlogPosts(blogs);
