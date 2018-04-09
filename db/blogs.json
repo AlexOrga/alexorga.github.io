@@ -17,6 +17,24 @@
             "title": "Outer Space and Back Again",
             "date": "3/9/2018",
             "post": "Advanced array methods seem so foreign.  I see their usefulness but I haven't had enough time to feel acquainted yet.  Class was kind of rough when we were talking about them, it was the first class so far that I was completely lost. Not a good feeling.  Staring at the board watching someone work problems and having no reference point to track the concept is unsettling to say the least.  I was calmed down and told that these are something to continue learning at your own pace, dont get overwhelmed, just breathe, Alex? Are you breathing? Once the hyperventilating had ceased it was back to Git.  Whew, some familiarity again.  I like Git projects, I have used Trello before so the idea of how this whole system operated wasn't new but I did learn a lot of new ways in which to use it.  First of all the detail of the cards.  Giving a story from the perspective of the user along with necessary criteria and finally Dev Notes takes all of this planning strategery, not a word I know, to the next level. Once with my group, it became very apparent that we might still have a long way to go before we are efficiently using our time to extract exactly what we need without waste.  Everyone in my group is great and I'm not saying we are slacking or horsing around we, myself included, just seem to get side-tracked by un-important pieces of the task for which the moment we are currently in does not require. Again time efficiency and correct planning, but I have to say everyone is commited to the end goal and we are figuring it out.  I can't ask for anything more than that."
+        },
+        {
+            "id": "blog4",
+            "title": "ES6 ",
+            "date": "3/27/2018",
+            "post": "ES6.....What a tornado.  Going through the treehouse tutorials you become very comfortable using var to define everything and then they turn on you in an evil manner and begin using let and const with absolutely no warning or explanation.  Now not only am I understanding how and why to use this new syntax but I prefer it.  I really like the next level of specificity that comes with it.  The fat arrow functions are taking their time to settle in however.  I guess this mostly comes from a shaky understanding of functions in the first place and now to change how they look creates slightly more of a struggle.  Object literals are pretty cool though, still getting used to them but all in due time.  I've noticed that if I don't understand a concept right away in class that if I give it a week it really starts to make sense, since we use the topics we cover in class in our exercises that week."
+        },
+        {
+            "id": "blog5",
+            "title": "XHR",
+            "date": "4/3/2018",
+            "post": "XHR is so cool and I'm loving what it is doing for my understanding of functions.  I was shaky with functions coming in and they have slowly become less and less foreign as time has passed but thanks to XHR I was forced to understand them on a higher level.  The nature of XHR and passing information through functions and constantly calling functions, sometimes multiple ones, inside other functions is one incredibly profound rabbit hole but somehow I followed the light to the other side.  I can now think and conceptualize in a group planning session 5 and 6 steps without losing my mental footing of where I started.  This is a HUGE breakthrough.  Learning how to carry information to eventually use data from two separate json files felt like jumping out of an airplane without a parachute but after staring at the computer screen for hours and running through the logic of it, the pieces started coming together.  XHR has really done a lot for my understanding of other concepts we have already covered and although it was a tough week I am definitely better off because of it."
+        },
+        {
+            "id": "blog6",
+            "title": "Bootstrap",
+            "date": "4/8/2018",
+            "post": "This comparatively was a pretty easy week.  Bootstrap is as straight-forward as it comes.  I am interested to see where this will take us and the ease of use it can bring in layout.  It definitely has it's disadvantages though as I believe everyones work will start to look very similar in the upcoming weeks if we are all styling from the same source.  Undoubtedly the class lists coming from my desk will need much more organizing now than they ever have before as I see that these longgggggg lists of class names added to each element can get very tiresome on the eyes.  All said and done, it's a cool source to use and I'm excited for where it could potentially take us, but like with everything in this class so far I've learned to keep a bit of caution up my sleeve from things that seem so easy."
         }
     ]
 }
