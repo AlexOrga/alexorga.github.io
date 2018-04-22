@@ -35,6 +35,18 @@
             "title": "Bootstrap",
             "date": "4/8/2018",
             "post": "This comparatively was a pretty easy week.  Bootstrap is as straight-forward as it comes.  I am interested to see where this will take us and the ease of use it can bring in layout.  It definitely has it's disadvantages though as I believe everyones work will start to look very similar in the upcoming weeks if we are all styling from the same source.  Undoubtedly the class lists coming from my desk will need much more organizing now than they ever have before as I see that these longgggggg lists of class names added to each element can get very tiresome on the eyes.  All said and done, it's a cool source to use and I'm excited for where it could potentially take us, but like with everything in this class so far I've learned to keep a bit of caution up my sleeve from things that seem so easy."
+        },
+        {
+            "id": "blog7",
+            "title": "Browserify and Task Runners",
+            "date": "4/17/2018",
+            "post": "This week has been quite a change as we have added the use of two new tools in our developing belts. Task Runners and Browserify.  The task runner we are using is called Grunt, with it installed we are given parameters as to how our JS should look and be written.  These new rules are semi-challenging to get used to at first such as needing 2 spaces on an indent instead of four, and needing an extra line of blank space at the end of our code, but I definitely see the benefit as everyone's code now looks the same at least in structure.  This makes reading our peers code much more simple.  It also is forcing me to learn exactly where those semi-colons do and don't belong.  Browserify has also been implemented this week and it has proven itself to be very powerful and extremely handy in keeping the code separated cleanly and much easier to read.  The learning curve was a little more steep as there are many many more avenues in which to pass data around so that it can be used (module.exports and require), but with that being said it is much safer as your data is harder to access from the user's perspective."
+        },
+        {
+            "id": "blog8",
+            "title": "Browserify and Task Runners",
+            "date": "4/22/2018",
+            "post": "Projects this week have ramped up nicely I really have enjoyed toying around with the movie maker project.  Processes and methods we are discussing in class are clicking and meshing in my mind in ways that I'm extremely pleased with.  My ability to plan what I'm going to do before I write is growing immensely.  Being able to use one event to change multiple aspects of the page is what we've started to implement as we learn to create shopping carts, blown-up diplays of items with more detail on the product, adding key value pairs to existing arrays, and then displaying those changes and how they affect things like total price. My group through all of this was fantastic everyone played an important role in the final culmination figuring out these complex problems.  We were efficient and thoughtful in how we wanted our project to run and then worked backwards to make these ideas come to reality in a clear well written manner."
         }
     ]
 }
