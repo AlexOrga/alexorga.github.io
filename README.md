@@ -2,6 +2,8 @@
 
 # Description
 
+This is a project which will continue to be updated as the course moves forward.  This is a place to showcase the skills I have acquired through Nashville Software School's Evening Cohort 7.
+
 # ScreenShots
 
 Coming Soon!
