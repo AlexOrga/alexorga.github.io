@@ -9,7 +9,7 @@ const createProjectCards = (data) => {
     let string = "";
     for(let i=0; i<data.length; i++){
         string += '<div id="' + data[i].id + '">';
-        string += '<h2>' + data[i].title + '</h2>';
+        string += '<h2 class="header">' + data[i].title + '</h2>';
         string += '<img src="' + data[i].imageURL + '">';
         string += '<p>' + data[i].description + '</p>';
         string += '<a href="' + data[i].githubURL + '">View This Project.</a>';

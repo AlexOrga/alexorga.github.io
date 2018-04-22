@@ -1,5 +1,7 @@
-
-
+body {
+    background: #BEBAB4;
+    color: #22232A;
+}
 
 .main-nav li {
     text-align: center;
@@ -8,18 +10,46 @@
 
 
 .main-nav a {
-    color: #666;
+    color: #22232A;
     display: inline-block;
     width: 100px;
     height: 25px;
 }
 
 .main-nav a:hover {
-    color: white;
-    background-color: #666;
+    color: #F7F7F6;
+    background-color: #22232A;
 }
 
 .main-nav a:active {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.header {
+    position: relative;
+    color: #020104;
+}
+
+/************** Blogs ********************/
+
+.blog-post {
+    width: 80%;
+    margin: 50px auto 0;
+    border-bottom: solid 2px #F7F7F6;
+}
+
+.blog-entry {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.blog-title {
+    display: inline;
+}
+
+.blog-date {
+    display: inline;
+    position: absolute;
+    right: 0;
 }

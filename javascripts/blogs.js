@@ -7,10 +7,14 @@ const writeToDom = (id, print) => {
 const createBlogPosts = (blogs) => {
     let blogPost = "";
     for(let i=0; i<blogs.length; i++){
-        blogPost += '<div id="' + blogs[i].id + '">';
-        blogPost += '<h2>' + blogs[i].title + '</h2>';
-        blogPost += '<h4>' + blogs[i].date + '</h4>';
-        blogPost += '<p>' + blogs[i].post + '</p>';
+        blogPost += '<div class="blog-post" id="' + blogs[i].id + '">';
+        blogPost +=     `<div class="header">`;
+        blogPost +=         '<h2 class="blog-title">' + blogs[i].title + '</h2>';
+        blogPost +=         '<h4 class="blog-date">' + blogs[i].date + '</h4>';
+        blogPost +=     `</div>`;
+        blogPost +=     `<div class="blog-entry">`;
+        blogPost +=         '<p>' + blogs[i].post + '</p>';
+        blogPost +=     `</div>`;
         blogPost += '</div>';
     }
     writeToDom("my-blogs", blogPost);
