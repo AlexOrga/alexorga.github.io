@@ -6,7 +6,25 @@ This is a project which will continue to be updated as the course moves forward.
 
 # ScreenShots
 
-Coming Soon!
+**Blogs Page**
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/blogPage1.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/blogPage2.png)
+
+**Job History**
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/jobHistory.png)
+
+**Projects Page**
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/projects1.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/projects2.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/projects3.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/alexorga.github.io/master/screenshots/projects4.png)
 
 # How To Run
 
