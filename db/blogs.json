@@ -47,6 +47,18 @@
             "title": "Browserify and Task Runners",
             "date": "4/22/2018",
             "post": "Projects this week have ramped up nicely I really have enjoyed toying around with the movie maker project.  Processes and methods we are discussing in class are clicking and meshing in my mind in ways that I'm extremely pleased with.  My ability to plan what I'm going to do before I write is growing immensely.  Being able to use one event to change multiple aspects of the page is what we've started to implement as we learn to create shopping carts, blown-up diplays of items with more detail on the product, adding key value pairs to existing arrays, and then displaying those changes and how they affect things like total price. My group through all of this was fantastic everyone played an important role in the final culmination figuring out these complex problems.  We were efficient and thoughtful in how we wanted our project to run and then worked backwards to make these ideas come to reality in a clear well written manner."
+        },
+        {
+            "id": "blog9",
+            "title": "Chatty Group Project",
+            "date": "5/12/2018",
+            "post": "This week our groups were assigned a really fun project called Chatty.  We were split in to groups based on an assessment of our skills and level of expertise and assigned projects, each of which, contained requirements specific to the skill levels of the group members.  The planning stage of this project went phenomenally well for the group I was in.  We went through the entire project front to back at least four times, each time diving in a little more specific than the last.  We never talked about exactly how we wanted to code something we only talked about what it was we wanted each component on the page to achieve and how each of these components would interact with it's siblings on the page.  I learned a lot about circular dependencies this week as I had trouble with two of them but all in all it was a great learning experience.  I feel much more confident in being able to spot a potential circular dependency before I write one."
+        },
+        {
+            "id": "blog10",
+            "title": "Jquery",
+            "date": "5/12/2018",
+            "post": "A giant sih of relief and eventually cheering is probably all you could hear coming from our classroom this week as we learned about the wonderful and magnificent Jquery.  Being able to select dom elements with this much ease makes me very excited for learning other JS libraries and frameworks.  There will still be a lot of practice that needs to happen before these new selectors are the first thing that comes to my mind when I'm thinking about coding something, still it feels forced and I have to do a lot of researching the documentation but I know with a little time and a lot of practice it will become a friend to me."
         }
     ]
 }
