@@ -59,6 +59,18 @@
             "title": "Jquery",
             "date": "5/12/2018",
             "post": "A giant sigh of relief and eventually cheering is probably all you could hear coming from our classroom this week as we learned about the wonderful and magnificent Jquery.  Being able to select DOM elements with this much ease makes me very excited for learning other JS libraries and frameworks.  There will still be a lot of practice that needs to happen before these new selectors are the first thing that comes to my mind when I'm thinking about coding something, still it feels forced and I have to do a lot of researching the documentation but I know with a little time and a lot of practice it will become a friend to me."
+        },
+        {
+            "id": "blog11",
+            "title": "Promise",
+            "date": "5/28/2018",
+            "post": "Promises really gave me a run for my money this week.  We started off with an in-class project named pup promises that was deceivingly simple.  That being said as soon as I got home I realized that I hadn't grasped much, if any, of what we had actually accomplished in class.  Making the promise request and resolving it made sense but then creating an entirely new function that was needed in order to use the data we retrieved was a concept that escaped me.  Luckily though we started another in-class assigment named movie-history that really cleared a lot of confusion."
+        },
+        {
+            "id": "blog12",
+            "title": "API's",
+            "date": "5/28/2018",
+            "post": "Using API's has been something I've been looking forward to since starting this course.  Interacting with an API was a topic that most online courses did not, and I'm sure still DO not, cover very well for a novice coder.  Rocketman is a very useful and neat resource for being able to actively see what will be returned from the API when requesting information.  I am learning to read API documentation very thoroughly for information that I know that I will need and trying to highlight topics that I may need later.  It is also quite nerve-wracking when working with keys.  Our projects right now are not subject to many security issues but I still want to reinforce a healthy habit of being nervous about leaving my key exposed.  We have been warned of the dangers of negligently leaving your key exposed and it is my job to stay constantly aware of where I place mine."
         }
     ]
 }
