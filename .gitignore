@@ -1,0 +1,5 @@
+.DS_Store
+dist
+lib/node_modules
+db/apiKeys.json
+build/

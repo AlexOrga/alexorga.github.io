@@ -1,0 +1,111 @@
+{
+  "blogs": [
+      {
+          "id": "blog1",
+          "title": "Back to school",
+          "date": "2/23/2018",
+          "post": "With the first two weeks of classes now come and gone it seems time to evaluate these new surroundings.  The whole experience is still fresh enough that I continue to need my morning reminders about class that same evening.  All in due time though waiting for routine to take hold.  As for the class, the material is, so far, a step above review from the pre-work but that is to be expected as we get a feel for our instructors and peers and vice versa.  Soon enough, I'm sure, I will be flailing for any apparatus to keep my head above water and I feel very grateful this panic has yet to rear it's head.  We walked through a fairly simple example of using HTML &amp; CSS together as a class and even though the concepts weren't new to me it was extremely helpful to watch Zoe plan her work in to manageable steps before ever writing the first line of code.  This has already proven to be vital information as we have begun to create pages on our own.  70% planning 25% writing 5% talking to my rubber duck while fighting back tears in the shower, the last two percentages will wax and wane I'm told.  I really couldn't be more excited about this class though, the instructors are everything positive I could have hoped for, my peers are helpful, inquisitive, and motivated."
+      },
+      {
+          "id": "blog2",
+          "title": "The First Thread Unravelled",
+          "date": "3/2/2018",
+          "post": "I knew coming in to this class that Javascript would be tough, I didn't know it would be this tough.  The Arrays challenges really made me take a step back and think about all the studying I had done before enrolling and how much I thought that I knew.  The biggest issue that I faced wasn't necessarily in the coding or getting methods to do what I wanted it was honestly just how to even get started. Staring at a problem my mind started to race, well if I use this method then I'll have to use this one next, but if I use this one these two two factors will change everything it would go on like this for 12 steps and I would forget where I even started.  Then it hit me, that stupid scientific method song my 3rd grade teacher made us memorize and it clicked, write down everything you're thinking ya big dummy.  Okay so now we start getting somewhere, piece after piece starts to make sense and I'm completing challenges faster every time.  Planning, planning, planning, and planning except...plan correctly.  This class now has taken a different shape, not only are the concepts being taught and ingrained but time management, time efficiency, and correct planning strategies are being forged here as well."
+      },
+      {
+          "id": "blog3",
+          "title": "Outer Space and Back Again",
+          "date": "3/9/2018",
+          "post": "Advanced array methods seem so foreign.  I see their usefulness but I haven't had enough time to feel acquainted yet.  Class was kind of rough when we were talking about them, it was the first class so far that I was completely lost. Not a good feeling.  Staring at the board watching someone work problems and having no reference point to track the concept is unsettling to say the least.  I was calmed down and told that these are something to continue learning at your own pace, dont get overwhelmed, just breathe, Alex? Are you breathing? Once the hyperventilating had ceased it was back to Git.  Whew, some familiarity again.  I like Git projects, I have used Trello before so the idea of how this whole system operated wasn't new but I did learn a lot of new ways in which to use it.  First of all the detail of the cards.  Giving a story from the perspective of the user along with necessary criteria and finally Dev Notes takes all of this planning strategery, not a word I know, to the next level. Once with my group, it became very apparent that we might still have a long way to go before we are efficiently using our time to extract exactly what we need without waste.  Everyone in my group is great and I'm not saying we are slacking or horsing around we, myself included, just seem to get side-tracked by un-important pieces of the task for which the moment we are currently in does not require. Again time efficiency and correct planning, but I have to say everyone is commited to the end goal and we are figuring it out.  I can't ask for anything more than that."
+      },
+      {
+          "id": "blog4",
+          "title": "ES6 ",
+          "date": "3/27/2018",
+          "post": "ES6.....What a tornado.  Going through the treehouse tutorials you become very comfortable using var to define everything and then they turn on you in an evil manner and begin using let and const with absolutely no warning or explanation.  Now not only am I understanding how and why to use this new syntax but I prefer it.  I really like the next level of specificity that comes with it.  The fat arrow functions are taking their time to settle in however.  I guess this mostly comes from a shaky understanding of functions in the first place and now to change how they look creates slightly more of a struggle.  Object literals are pretty cool though, still getting used to them but all in due time.  I've noticed that if I don't understand a concept right away in class that if I give it a week it really starts to make sense, since we use the topics we cover in class in our exercises that week."
+      },
+      {
+          "id": "blog5",
+          "title": "XHR",
+          "date": "4/3/2018",
+          "post": "XHR is so cool and I'm loving what it is doing for my understanding of functions.  I was shaky with functions coming in and they have slowly become less and less foreign as time has passed but thanks to XHR I was forced to understand them on a higher level.  The nature of XHR and passing information through functions and constantly calling functions, sometimes multiple ones, inside other functions is one incredibly profound rabbit hole but somehow I followed the light to the other side.  I can now think and conceptualize in a group planning session 5 and 6 steps without losing my mental footing of where I started.  This is a HUGE breakthrough.  Learning how to carry information to eventually use data from two separate json files felt like jumping out of an airplane without a parachute but after staring at the computer screen for hours and running through the logic of it, the pieces started coming together.  XHR has really done a lot for my understanding of other concepts we have already covered and although it was a tough week I am definitely better off because of it."
+      },
+      {
+          "id": "blog6",
+          "title": "Bootstrap",
+          "date": "4/8/2018",
+          "post": "This comparatively was a pretty easy week.  Bootstrap is as straight-forward as it comes.  I am interested to see where this will take us and the ease of use it can bring in layout.  It definitely has it's disadvantages though as I believe everyones work will start to look very similar in the upcoming weeks if we are all styling from the same source.  Undoubtedly the class lists coming from my desk will need much more organizing now than they ever have before as I see that these longgggggg lists of class names added to each element can get very tiresome on the eyes.  All said and done, it's a cool source to use and I'm excited for where it could potentially take us, but like with everything in this class so far I've learned to keep a bit of caution up my sleeve from things that seem so easy."
+      },
+      {
+          "id": "blog7",
+          "title": "Browserify and Task Runners",
+          "date": "4/17/2018",
+          "post": "This week has been quite a change as we have added the use of two new tools in our developing belts. Task Runners and Browserify.  The task runner we are using is called Grunt, with it installed we are given parameters as to how our JS should look and be written.  These new rules are semi-challenging to get used to at first such as needing 2 spaces on an indent instead of four, and needing an extra line of blank space at the end of our code, but I definitely see the benefit as everyone's code now looks the same at least in structure.  This makes reading our peers code much more simple.  It also is forcing me to learn exactly where those semi-colons do and don't belong.  Browserify has also been implemented this week and it has proven itself to be very powerful and extremely handy in keeping the code separated cleanly and much easier to read.  The learning curve was a little more steep as there are many many more avenues in which to pass data around so that it can be used (module.exports and require), but with that being said it is much safer as your data is harder to access from the user's perspective."
+      },
+      {
+          "id": "blog8",
+          "title": "Browserify and Task Runners",
+          "date": "4/22/2018",
+          "post": "Projects this week have ramped up nicely I really have enjoyed toying around with the movie maker project.  Processes and methods we are discussing in class are clicking and meshing in my mind in ways that I'm extremely pleased with.  My ability to plan what I'm going to do before I write is growing immensely.  Being able to use one event to change multiple aspects of the page is what we've started to implement as we learn to create shopping carts, blown-up diplays of items with more detail on the product, adding key value pairs to existing arrays, and then displaying those changes and how they affect things like total price. My group through all of this was fantastic everyone played an important role in the final culmination figuring out these complex problems.  We were efficient and thoughtful in how we wanted our project to run and then worked backwards to make these ideas come to reality in a clear well written manner."
+      },
+      {
+          "id": "blog9",
+          "title": "Chatty Group Project",
+          "date": "5/12/2018",
+          "post": "This week our groups were assigned a really fun project called Chatty.  We were split in to groups based on an assessment of our skills and level of expertise and assigned projects, each of which, contained requirements specific to the skill levels of the group members.  The planning stage of this project went phenomenally well for the group I was in.  We went through the entire project front to back at least four times, each time diving in a little more specific than the last.  We never talked about exactly how we wanted to code something we only talked about what it was we wanted each component on the page to achieve and how each of these components would interact with it's siblings on the page.  I learned a lot about circular dependencies this week as I had trouble with two of them but all in all it was a great learning experience.  I feel much more confident in being able to spot a potential circular dependency before I write one."
+      },
+      {
+          "id": "blog10",
+          "title": "Jquery",
+          "date": "5/12/2018",
+          "post": "A giant sigh of relief and eventually cheering is probably all you could hear coming from our classroom this week as we learned about the wonderful and magnificent Jquery.  Being able to select DOM elements with this much ease makes me very excited for learning other JS libraries and frameworks.  There will still be a lot of practice that needs to happen before these new selectors are the first thing that comes to my mind when I'm thinking about coding something, still it feels forced and I have to do a lot of researching the documentation but I know with a little time and a lot of practice it will become a friend to me."
+      },
+      {
+          "id": "blog11",
+          "title": "Promise",
+          "date": "5/28/2018",
+          "post": "Promises really gave me a run for my money this week.  We started off with an in-class project named pup promises that was deceivingly simple.  That being said as soon as I got home I realized that I hadn't grasped much, if any, of what we had actually accomplished in class.  Making the promise request and resolving it made sense but then creating an entirely new function that was needed in order to use the data we retrieved was a concept that escaped me.  Luckily though we started another in-class assigment named movie-history that really cleared a lot of confusion."
+      },
+      {
+          "id": "blog12",
+          "title": "API's",
+          "date": "5/28/2018",
+          "post": "Using API's has been something I've been looking forward to since starting this course.  Interacting with an API was a topic that most online courses did not, and I'm sure still DO not, cover very well for a novice coder.  Rocketman is a very useful and neat resource for being able to actively see what will be returned from the API when requesting information.  I am learning to read API documentation very thoroughly for information that I know that I will need and trying to highlight topics that I may need later.  It is also quite nerve-wracking when working with keys.  Our projects right now are not subject to many security issues but I still want to reinforce a healthy habit of being nervous about leaving my key exposed.  We have been warned of the dangers of negligently leaving your key exposed and it is my job to stay constantly aware of where I place mine."
+      },
+      {
+          "id": "blog13",
+          "title": "Firebase",
+          "date": "6/2/2018",
+          "post": "Firebase is an application owned by Google that we are using in class as a real-time database.  We have been using it to save and retrieve information for two different projects.  It has been very interesting to finally interact with a database.  We're learning how to set up data in a way that we can use later when we need to retrieve it.  Configuring the app is a little difficult for use but it will just take some getting used to.  We have been saving data as an object of objects so when we return the data we have to pass what we need in to an array to be able to loop over it.  All of the concepts we have been learning in class are culminating in use of firebase."
+      }
+  ],
+  "projects": [
+    {
+        "title": "Local Weather",
+        "thumbnail": "https://XXX.jpg",
+        "description": "This is a product and technical description for the project",
+        "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS, Version Control with Github",
+        "available": true,
+        "url": "https://local-weather-62a20.firebaseapp.com",
+        "github": "https://github.com/AlexOrga/local-weather"
+    },
+    {
+        "title": "Chatty",
+        "thumbnail": "https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-hylophobia/master/screenshots/multipleUsers.PNG",
+        "description": "This is a product and technical description for the project",
+        "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+        "available": true,
+        "url": "https://XXX.firebaseapp.com",
+        "github": "https://github.com/AlexOrga/chatty-hylophobia"
+    },
+    {
+        "title": "Adoption Website",
+        "thumbnail": "https://raw.githubusercontent.com/AlexOrga/adoption-website/master/screenshots/Adopt2.png",
+        "description": "This is a product and technical description for the project",
+        "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+        "available": true,
+        "url": "https://XXX.firebaseapp.com",
+        "github": "https://github.com/AlexOrga/adoption-website"
+    }
+  ]
+}
