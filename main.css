@@ -6,12 +6,13 @@ body {
 .main-nav li {
     text-align: center;
     list-style: none;
+    display: inline;
 }
 
 
 .main-nav a {
     color: #22232A;
-    display: inline-block;
+    margin-right: 10px;
     width: 100px;
     height: 25px;
 }

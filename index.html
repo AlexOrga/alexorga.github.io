@@ -8,28 +8,125 @@
     </head>
     <body>
         <h1>Alex Orga</h1>
-        <nav class="main-nav">
+        <nav class="main-nav navbar navbar-default navbar-right">
             <ul>
                 <li>
-                    <a href="index.html" title="Home Page">Home</a>
+                    <a id="homeBtn" href="#" title="Home Page">Home</a>
                 </li>
                 <li>
-                        <a href="blog.html" title="My Blog">Blog</a>
+                    <a id="blogBtn" href="#" title="My Blog">Blog</a>
                 </li>
                 <li>
-                    <a href="history.html" title="My Personal Job History">Job History</a>
+                    <a id="historyBtn" href="#" title="My Personal Job History">Job History</a>
                 </li>
                 <li>
-                    <a href="projects.html" title="Projects">Projects</a>
+                    <a id="projectsBtn" href="#" title="Projects">Projects</a>
                 </li>
                 <li>
-                    <a href="contact.html" title="Contact Me">Contact Me</a>
+                    <a id="contactBtn" href="#" title="Contact Me">Contact Me</a>
                 </li>
             </ul>
         </nav>
+
+        <div id="home">
+            <div id=""></div>
+        </div>
+
+        <div id="blog" class="hide">
+            <div id="my-blogs"></div>
+        </div>
+
+        <div id="history" class="hide">
+            <div>
+                <article>
+                    <header>
+                        <h3 class="header">Restoration Hardware</h3>
+                        <h5>(Spring 2009 - Spring 2010)</h5>
+                    </header>
+                    <section>
+                        <p>Stock room associate. Pulled merchandise for sale, kept working invetory of stock room</p>
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h3 class="header">Executive Martial Arts</h3>
+                        <h5>(Spring 2010 - Summer 2014)</h5>
+                    </header>
+                    <section>
+                        <p>Instructor and personal trainer.</p>
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h3 class="header">Coyote Ugly Saloon</h3>
+                        <h5>(Fall 2014 - Spring 2014)</h5>
+                    </header>
+                    <section>
+                        <p>Security</p>
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h3 class="header">Nashville Fabrication</h3>
+                        <h5>(Spring 2015 - Winter 2015)</h5>
+                    </header>
+                    <section>
+                        <p>CNC Machine Operator</p>
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h3 class="header">Anchor Bolts and Fasteners</h3>
+                        <h5>(Winter 2015 - Present)</h5>
+                    </header>
+                    <section>
+                        <p>Manufacturing Supervisor</p>
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div id="projects" class="hide">
+            <div id="my-projects"></div>
+        </div>
+
+        <div id="contact" class="hide">
+            <div>
+                <article>
+                    <header>
+                        <h3>How to contact me:</h3>
+                    </header>
+                    <section>
+                        <h5>Email: <a href="mailto:alexorga.dev@gmail.com">alexorga.dev@gmail.com</a></h5>
+
+                    </section>
+                    <section>
+                        <h5><a href="alexorga.github.io">GitHub</a></h5>
+
+                    </section>
+                    <section>
+                        <h5><a href="https://www.facebook.com/alex.orga.3">Facebook</a></h5>
+                    </section>
+                    <section>
+                        <h5><a href="https://www.instagram.com/organic_mechanic2/">Instagram</a></h5>
+                    </section>
+                </article>
+            </div>
+        </div>
+
+
+
         <a href="funFact.html">Here's a fun fact about me!</a>
         <a href="dadJoke.html">Want to hear a joke?</a>
 
         <footer>&copy;Alexander Orga 2018</footer>
+
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+        <script src="dist/app.js"></script>
     </body>
 </html>
