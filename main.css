@@ -54,3 +54,9 @@ body {
     position: absolute;
     right: 0;
 }
+
+/* Projects */
+
+.project-img {
+    width: 100%;
+}

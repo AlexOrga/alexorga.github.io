@@ -4,7 +4,6 @@ const {populateBlogs,} = require('./blogs');
 const pageNavigating = () => {
   $('#homeBtn').click(() => {
     $('#home').removeClass('hide');
-    $('#home').addClass('active');
     $('#blog').addClass('hide');
     $('#history').addClass('hide');
     $('#projects').addClass('hide');
@@ -12,7 +11,6 @@ const pageNavigating = () => {
   });
   $('#blogBtn').click(() => {
     $('#blog').removeClass('hide');
-    $('#blog').addClass('active');
     $('#home').addClass('hide');
     $('#history').addClass('hide');
     $('#projects').addClass('hide');
@@ -21,7 +19,6 @@ const pageNavigating = () => {
   });
   $('#historyBtn').click(() => {
     $('#history').removeClass('hide');
-    $('#history').addClass('active');
     $('#home').addClass('hide');
     $('#blog').addClass('hide');
     $('#projects').addClass('hide');
@@ -29,7 +26,6 @@ const pageNavigating = () => {
   });
   $('#projectsBtn').click(() => {
     $('#projects').removeClass('hide');
-    $('#projects').addClass('active');
     $('#home').addClass('hide');
     $('#blog').addClass('hide');
     $('#history').addClass('hide');
@@ -38,7 +34,6 @@ const pageNavigating = () => {
   });
   $('#contactBtn').click(() => {
     $('#contact').removeClass('hide');
-    $('#contact').addClass('active');
     $('#home').addClass('hide');
     $('#blog').addClass('hide');
     $('#history').addClass('hide');
