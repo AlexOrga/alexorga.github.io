@@ -102,10 +102,15 @@ h1 {
 
 /************** Blogs ********************/
 
+#blog {
+    margin-top: 200px;
+}
+
 .blog-post {
     width: 80%;
+
     margin: 50px auto 0;
-    border-bottom: solid 2px #F7F7F6;
+    border-bottom: solid 2px rgb(132, 132, 133);
 }
 
 .blog-entry {
@@ -113,17 +118,29 @@ h1 {
     text-align: justify;
 }
 
-.blog-title {
-    display: inline;
+.blog-date {
+    margin-top: 60px;
 }
 
-.blog-date {
-    display: inline;
-    position: absolute;
-    right: 0;
+#blog-post1 {
+    max-height: 377px;
 }
+
+/* .blog-text {
+    display: block;
+    width: 100%;
+    height: 155px;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+  } */
+
 
 /* Projects */
+
+#projects {
+    margin-top: 200px;
+}
 
 .project-img {
     width: 100%;

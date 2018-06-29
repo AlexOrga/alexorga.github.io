@@ -1,5 +1,5 @@
 const {populateProjects,} = require('./projects');
-const {populateBlogs,} = require('./blogs');
+const {populateBlogsAll,} = require('./blogs');
 
 const pageNavigating = () => {
   $('#homeBtn').click(() => {
@@ -15,7 +15,7 @@ const pageNavigating = () => {
     $('#history').addClass('hide');
     $('#projects').addClass('hide');
     $('#contact').addClass('hide');
-    populateBlogs();
+    populateBlogsAll();
   });
   $('#historyBtn').click(() => {
     $('#history').removeClass('hide');
