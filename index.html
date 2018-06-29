@@ -3,109 +3,133 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
         <title>Alex Orga</title>
     </head>
     <body>
-        <!-- <h1>Alex Orga</h1>
-        <nav class="main-nav navbar navbar-default navbar-right">
-            <ul>
-                <li>
-                    <a id="homeBtn" href="#" title="Home Page">Home</a>
-                </li>
-                <li>
-                    <a id="blogBtn" href="#" title="My Blog">Blog</a>
-                </li>
-                <li>
-                    <a id="historyBtn" href="#" title="My Personal Job History">Job History</a>
-                </li>
-                <li>
-                    <a id="projectsBtn" href="#" title="Projects">Projects</a>
-                </li>
-                <li>
-                    <a id="contactBtn" href="#" title="Contact Me">Contact Me</a>
-                </li>
-            </ul>
-        </nav> -->
 
-        <nav>
-                <div class="nav-wrapper">
-                  <a href="#" class="brand-logo center">Alex Orga</a>
-                  <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a id="homeBtn" href="#">Home</a></li>
-                    <li><a id="blogBtn" href="#">Blog</a></li>
-                    <li><a id="projectsBtn" href="#">Projects</a></li>
-                </ul>
-                <ul class="right hide-on-med-and-down">
-                    <li><a id="historyBtn" href="#">Job History</a></li>
-                    <li><a id="contactBtn" href="#">Contact Me</a></li>
-                  </ul>
-                </div>
-              </nav>
+        <nav class="col l6 offset-l6">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo center"><u>Alexander Orga</u></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a id="homeBtn" href="#">Home</a></li>
+                <li><a id="blogBtn" href="#">Blog</a></li>
+                <li><a id="projectsBtn" href="#">Projects</a></li>
+                <li><a id="historyBtn" href="#">Job History</a></li>
+                <li><a id="contactBtn" href="#">Contact Me</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <ul class="sidenav" id="mobile-demo">
+            <li><a id="homeBtn" href="#">Home</a></li>
+            <li><a id="blogBtn" href="#">Blog</a></li>
+            <li><a id="projectsBtn" href="#">Projects</a></li>
+            <li><a id="historyBtn" href="#">Job History</a></li>
+            <li><a id="contactBtn" href="#">Contact Me</a></li>
+          </ul>
+
+        <header id="main-header" class="row">
+          <div class="col s4 offset-s8 header-text">
+            <!-- <h2>Alex Orga</h2> -->
+            <h1 class="right-align">Simply Efficient.</h1>
+          </div>
+        </header>
+
+        <div class="container row benefits">
+          <div class="benefit-header align-center">
+              <h3>How You Benefit</h3>
+          </div>
+
+          <div class="col s12 m6 l3 benefit-item">
+              <i class="material-icons benefit-icon">schedule</i>
+              <p>Speed Matters.</p>
+          </div>
+
+          <div class="col s12 m6 l3 benefit-item">
+              <i class="material-icons benefit-icon">question_answer</i>
+              <p>Communication.</p>
+          </div>
+
+          <div class="col s12 m6 l3 benefit-item">
+              <i class="material-icons benefit-icon">devices_other</i>
+              <p>Compatibility.</p>
+          </div>
+
+          <div class="col s12 m6 l3 benefit-item">
+              <i class="material-icons benefit-icon">public</i>
+              <p>Connect with the world.</p>
+          </div>
+
+        </div>
+
 
         <div id="home">
-            <div id=""></div>
+          <div id=""></div>
         </div>
 
-        <div id="blog" class="hide">
-            <div id="my-blogs"></div>
+        <div id="blog" class="hide container">
+          <div id="my-blogs"></div>
         </div>
 
-        <div id="history" class="hide">
-            <div>
-                <article>
-                    <header>
-                        <h3 class="header">Restoration Hardware</h3>
-                        <h5>(Spring 2009 - Spring 2010)</h5>
-                    </header>
-                    <section>
-                        <p>Stock room associate. Pulled merchandise for sale, kept working invetory of stock room</p>
-                    </section>
-                </article>
-                <article>
-                    <header>
-                        <h3 class="header">Executive Martial Arts</h3>
-                        <h5>(Spring 2010 - Summer 2014)</h5>
-                    </header>
-                    <section>
-                        <p>Instructor and personal trainer.</p>
-                    </section>
-                </article>
-                <article>
-                    <header>
-                        <h3 class="header">Coyote Ugly Saloon</h3>
-                        <h5>(Fall 2014 - Spring 2014)</h5>
-                    </header>
-                    <section>
-                        <p>Security</p>
-                    </section>
-                </article>
-                <article>
-                    <header>
-                        <h3 class="header">Nashville Fabrication</h3>
-                        <h5>(Spring 2015 - Winter 2015)</h5>
-                    </header>
-                    <section>
-                        <p>CNC Machine Operator</p>
-                    </section>
-                </article>
-                <article>
-                    <header>
-                        <h3 class="header">Anchor Bolts and Fasteners</h3>
-                        <h5>(Winter 2015 - Present)</h5>
-                    </header>
-                    <section>
-                        <p>Manufacturing Supervisor</p>
-                    </section>
-                </article>
-            </div>
+        <div id="history" class="hide container">
+          <div>
+            <article>
+              <header>
+                <h3 class="job-header">Restoration Hardware</h3>
+                <h5>(Spring 2009 - Spring 2010)</h5>
+              </header>
+              <section>
+                <p>Stock room associate. Pulled merchandise for sale, kept working invetory of stock room</p>
+              </section>
+            </article>
+            <article>
+              <header>
+                <h3 class="job-header">Executive Martial Arts</h3>
+                <h5>(Spring 2010 - Summer 2014)</h5>
+              </header>
+              <section>
+                <p>Instructor and personal trainer.</p>
+              </section>
+            </article>
+            <article>
+              <header>
+                  <h3 class="job-header">Coyote Ugly Saloon</h3>
+                  <h5>(Fall 2014 - Spring 2014)</h5>
+              </header>
+              <section>
+                <p>Security</p>
+              </section>
+            </article>
+            <article>
+              <header>
+                <h3 class="job-header">Nashville Fabrication</h3>
+                <h5>(Spring 2015 - Winter 2015)</h5>
+              </header>
+              <section>
+                <p>CNC Machine Operator</p>
+              </section>
+            </article>
+            <article>
+              <header>
+                <h3 class="job-header">Anchor Bolts and Fasteners</h3>
+                <h5>(Winter 2015 - Present)</h5>
+              </header>
+              <section>
+                <p>Manufacturing Supervisor</p>
+              </section>
+            </article>
+          </div>
         </div>
 
-        <div id="projects" class="hide">
-            <div id="my-projects"></div>
+        <div id="projects" class="hide container">
+            <div id="my-projects" class="row"></div>
         </div>
 
-        <div id="contact" class="hide">
+        <div id="contact" class="hide container">
             <div>
                 <article>
                     <header>
@@ -129,18 +153,13 @@
             </div>
         </div>
 
-
-
-        <a href="funFact.html">Here's a fun fact about me!</a>
-        <a href="dadJoke.html">Want to hear a joke?</a>
-
         <footer class="page-footer">
-                <div class="container">
+                <!-- <div class="container">
                   <div class="row">
                     <div class="col l6 s12">
-                      <h5 class="white-text">Footer Content</h5>
+                      <h5 class="white-text">Footer Content</h5> -->
                       <!-- <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
-                    </div>
+                    <!-- </div> -->
                     <!-- <div class="col l4 offset-l2 s12">
                       <h5 class="white-text">Links</h5>
                       <ul>
@@ -150,12 +169,11 @@
                         <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                       </ul>
                     </div> -->
-                  </div>
-                </div>
+                  <!-- </div>
+                </div> -->
                 <div class="footer-copyright">
-                  <div class="container">
+                  <div class="container center-align">
                     &copy;Alexander Orga 2018
-                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                   </div>
                 </div>
               </footer>

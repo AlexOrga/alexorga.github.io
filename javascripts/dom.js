@@ -21,6 +21,7 @@ const printBlogs = (string) => {
 
 const domStringProjectCards = (projectsArray) => {
   let domString = '';
+  // domString +=  `<div class="row">`;
   projectsArray.forEach((project) => {
     if (project.available === true) {
       // domString += `<div class="project-card" data-id="${project.id}">`;
@@ -31,8 +32,7 @@ const domStringProjectCards = (projectsArray) => {
       // domString += `<a href="${project.github}">View the GitHub for this Project.</a>`;
       // domString += `</div>`;
 
-      domString +=  `<div class="row">`;
-      domString +=  `<div class="col s12 m7">`;
+      domString +=  `<div class="col s12 m6">`;
       domString +=    `<div class="card" data-id="${project.id}>`;
       domString +=      `<div class="card-image projects-img-holder">`;
       domString +=        `<img class="project-img" src="${project.thumbnail}">`;
@@ -47,9 +47,9 @@ const domStringProjectCards = (projectsArray) => {
       domString +=      `</div>`;
       domString +=    `</div>`;
       domString +=  `</div>`;
-      domString +=  `</div>`;
     }
   });
+  // domString +=  `</div>`;
   printProjects(domString);
 };
 
