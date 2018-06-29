@@ -19,27 +19,28 @@ const domStringBlogPostsFrontPage = (blogsArray) => {
   let domString = '';
   for (let i = 0; i < 3; i ++) {
     if (i === 0) {
-      domString += '<div class="row" id="blog-post1">';
+      domString += '<div class="row blog-post-front">';
       domString +=  `<img class="pencil-img col s12 m6" src="../img/tim-wright-506562-unsplash.jpg">`;
-      domString +=  '<div class="blog-post col s12 m6" id="' + blogsArray[i].id + '">';
+      domString +=  '<div class="col s12 m6" id="' + blogsArray[i].id + '">';
     } else if (i === 1) {
-      domString += '<div class="row"';
-      domString += '<div class="blog-post col s3" id="' + blogsArray[i].id + ' blog-post2">';
+      domString += '<div class="row blog-post-front">';
+      domString +=  `<img class="pencil-img col s12 m6" src="../img/fancycrave-224908-unsplash.jpg">`;
+      domString +=  '<div class="col s12 m6" id="' + blogsArray[i].id + '">';
     } else if (i === 2) {
-      domString += '<div class="blog-post col s3" id="' + blogsArray[i].id + ' blog-post3">';
+      domString += '<div class="row blog-post-front">';
+      domString +=  `<img class="pencil-img col s12 m6" src="../img/gabriel-matula-300398-unsplash.jpg">`;
+      domString +=  '<div class="col s12 m6" id="' + blogsArray[i].id + '">';
     }
     domString +=     `<div class="blog-header row align-center">`;
-    domString +=         '<h2 class="blog-title col s6">' + blogsArray[i].title + '</h2>';
-    domString +=         '<h4 class="blog-date col s6">' + blogsArray[i].date + '</h4>';
+    domString +=         '<h3 class="blog-title">' + blogsArray[i].title + '</h3>';
+    domString +=         '<p class="blog-date">' + blogsArray[i].date + '</p>';
     domString +=     `</div>`;
     domString +=     `<div class="blog-entry">`;
     domString +=         '<p><span class="blog-text">"' + blogsArray[i].post + '</span></p>';
-    domString +=         '<a class="waves-effect waves-light btn">View More</a>';
+    domString +=         '<a class="waves-effect waves-light btn view-more-blog">View More</a>';
     domString +=     `</div>`;
     domString +=   `</div>`;
-    if (i === 0 || i === 2) {
-      domString += '</div>';
-    }
+    domString += '</div>';
   };
   printBlogs(domString);
 };

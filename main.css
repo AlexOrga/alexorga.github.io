@@ -1,5 +1,6 @@
 body {
     color: #22232A;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .nav-wrapper .brand-logo {
@@ -108,7 +109,6 @@ h1 {
 
 .blog-post {
     width: 80%;
-
     margin: 50px auto 0;
     border-bottom: solid 2px rgb(132, 132, 133);
 }
@@ -118,12 +118,18 @@ h1 {
     text-align: justify;
 }
 
-.blog-date {
-    margin-top: 60px;
+.blog-post-front {
+    max-height: 377px;
+    margin-bottom: 40px;
 }
 
-#blog-post1 {
-    max-height: 377px;
+.blog-post-front .blog-date {
+    border-bottom: solid 2px rgb(132, 132, 133);
+}
+
+.blog-post-front h3,
+.blog-post-front .blog-date {
+    text-align: center;
 }
 
 /* .blog-text {
