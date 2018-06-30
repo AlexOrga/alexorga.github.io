@@ -17,14 +17,19 @@ const projectsAndBlogsLoad = () => {
 };
 
 const initializer = () => {
-  retrieveKeys();
-  pageNavigating();
-  navbarMobile();
-  projectsAndBlogsLoad();
-  viewBlogPosts();
+  retrieveKeys()
+    .then(() => {
+      pageNavigating();
+      navbarMobile();
+      projectsAndBlogsLoad();
+      viewBlogPosts();
+    })
+    .catch();
 };
 
-initializer();
+$(document).ready(() => {
+  initializer();
+});
 
 module.exports = {
   initializer,
