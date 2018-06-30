@@ -32,7 +32,7 @@ const domStringBlogPostsFrontPage = (blogsArray) => {
       domString +=  '<div class="col s12 m6" id="' + blogsArray[i].id + '">';
     }
     domString +=     `<div class="blog-header row align-center">`;
-    domString +=         '<h3 class="blog-title">' + blogsArray[i].title + '</h3>';
+    domString +=         '<h5 class="blog-title">' + blogsArray[i].title + '</h5>';
     domString +=         '<p class="blog-date">' + blogsArray[i].date + '</p>';
     domString +=     `</div>`;
     domString +=     `<div class="blog-entry">`;

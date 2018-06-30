@@ -3,6 +3,8 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+/* Navigation Bar */
+
 .nav-wrapper .brand-logo {
     color: rgb(26, 25, 25);
     font-family: 'Nanum Gothic', sans-serif;
@@ -23,10 +25,6 @@ body {
     color: #FAFAFA;
     background-color: rgb(132, 132, 133);
 }
-
-/* .nav-wrapper a:hover {
-    color: white;
-} */
 
 .main-nav a:active {
     padding-left: 5px;
@@ -55,29 +53,37 @@ body {
 h1 {
     margin-top: 150px;
     padding: 0;
-    color: rgb(109, 207, 122);
+    color: rgb(86, 168, 97);
 }
 
-/* Benefits */
+/* About Me */
 
-.benefits {
-    margin-top: 150px;
+#about-me-container {
+    margin-top: 200px;
 }
 
-.benefit-header {
-    margin: 0 10px 100px 10px;
+.divider-header {
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.benefit-header h3:before,
-.benefit-header h3:after {
+.divider-header h3::before {
+    margin-right: 10px;
+}
+
+.divider-header h3::after {
+    margin-left: 10px;
+}
+
+.divider-header h3:before,
+.divider-header h3:after {
     background-color: #E5E5E5;
     content: "";
     display: inline-block;
     height: 3px;
     position: relative;
     vertical-align: middle;
-    width: 25%;
+    width: 20%;
     margin: 0 15px 0 15px;
 }
 
@@ -86,11 +92,11 @@ h1 {
     box-sizing: border-box;
 }
 
-.benefit-item {
+.about-me-item {
     text-align: center;
 }
 
-.benefit-icon {
+.about-me-icon {
     font-size: 95px;
 }
 
@@ -103,7 +109,7 @@ h1 {
 
 /************** Blogs ********************/
 
-#blog {
+#blog-container {
     margin-top: 200px;
 }
 
@@ -127,26 +133,39 @@ h1 {
     border-bottom: solid 2px rgb(132, 132, 133);
 }
 
-.blog-post-front h3,
+.blog-post-front h5 {
+    margin-top: 40px;
+}
+
+.blog-post-front h5,
 .blog-post-front .blog-date {
+    font-weight: bolder;
     text-align: center;
 }
 
-/* .blog-text {
-    display: block;
-    width: 100%;
-    height: 155px;
-    overflow: hidden;
-    white-space: wrap;
-    text-overflow: ellipsis;
-  } */
-
-
 /* Projects */
 
-#projects {
+#project-container {
     margin-top: 200px;
 }
+
+#project-background {
+    display: block;
+    position: relative;
+  }
+
+#project-background::after {
+    content: "";
+    background: url(img/erol-ahmed-296514-unsplash.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
 
 .project-img {
     width: 100%;

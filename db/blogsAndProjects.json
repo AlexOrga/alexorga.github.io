@@ -82,7 +82,7 @@
   "projects": [
     {
         "title": "Local Weather",
-        "thumbnail": "https://XXX.jpg",
+        "thumbnail": "https://raw.githubusercontent.com/AlexOrga/local-weather/master/screenshots/Screen%20Shot%202018-06-29%20at%207.43.17%20PM.png",
         "description": "This is a product and technical description for the project",
         "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS, Version Control with Github",
         "available": true,
