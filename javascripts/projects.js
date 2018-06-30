@@ -1,10 +1,20 @@
 const {getAllProjects,} = require('./firebaseAPI');
-const {domStringProjectCards,} = require('./dom');
+const {domStringProjectCardsAll, domStringProjectCardsFrontPage,} = require('./dom');
 
-const populateProjects = () => {
+const populateProjectsAll = () => {
   getAllProjects()
     .then((projectsArray) => {
-      domStringProjectCards(projectsArray);
+      domStringProjectCardsAll(projectsArray);
+    })
+    .catch((err) => {
+      console.error('Error loading projects', err);
+    });
+};
+
+const populateProjectsFrontPage = () => {
+  getAllProjects()
+    .then((projectsArray) => {
+      domStringProjectCardsFrontPage(projectsArray);
     })
     .catch((err) => {
       console.error('Error loading projects', err);
@@ -12,5 +22,6 @@ const populateProjects = () => {
 };
 
 module.exports = {
-  populateProjects,
+  populateProjectsAll,
+  populateProjectsFrontPage,
 };

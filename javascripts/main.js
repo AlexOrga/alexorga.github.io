@@ -1,6 +1,6 @@
 const {retrieveKeys,} = require('./apiKeys');
-const {pageNavigating,} = require('./events');
-const projects = require('./projects');
+const {pageNavigating, viewBlogPosts,} = require('./events');
+const {populateProjectsFrontPage,} = require('./projects');
 const {populateBlogsFrontPage,} = require('./blogs');
 
 const navbarMobile = () => {
@@ -11,7 +11,7 @@ const navbarMobile = () => {
 
 const projectsAndBlogsLoad = () => {
   $(document).ready(function () {
-    projects.populateProjects();
+    populateProjectsFrontPage();
     populateBlogsFrontPage();
   });
 };
@@ -21,8 +21,11 @@ const initializer = () => {
   pageNavigating();
   navbarMobile();
   projectsAndBlogsLoad();
-  // projects.populateProjects();
-  // populateBlogs();
+  viewBlogPosts();
 };
 
 initializer();
+
+module.exports = {
+  initializer,
+};

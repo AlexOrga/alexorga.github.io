@@ -46,14 +46,14 @@ body {
 .header-text {
     font-family: 'Nanum Gothic', sans-serif;
     position: absolute;
-    bottom: 50px;
-    right: 0;
+    bottom: 20px;
+    right: 50px;
 }
 
 h1 {
     margin-top: 150px;
     padding: 0;
-    color: rgb(86, 168, 97);
+    color: rgb(30, 121, 42);
 }
 
 /* About Me */
@@ -152,7 +152,7 @@ h1 {
 #project-background {
     display: block;
     position: relative;
-  }
+}
 
 #project-background::after {
     content: "";
@@ -165,10 +165,31 @@ h1 {
     right: 0;
     position: absolute;
     z-index: -1;
-  }
+}
+
+#my-projects {
+    padding-top: 50px;
+}
 
 .project-img {
     width: 100%;
+}
+
+.project-card-front-page {
+    height: 590px;
+}
+
+.card-image-front-page img {
+    min-height: 350px;
+}
+
+.card-content-front-page {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(86, 168, 97);
 }
 
 /* Footer */

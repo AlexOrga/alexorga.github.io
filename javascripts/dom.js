@@ -12,7 +12,7 @@ const domStringBlogPostsAll = (blogsArray) => {
     domString +=     `</div>`;
     domString += '</div>';
   });
-  printBlogs(domString);
+  printBlogsAll(domString);
 };
 
 const domStringBlogPostsFrontPage = (blogsArray) => {
@@ -49,37 +49,51 @@ const printBlogs = (string) => {
   $('#my-blogs').html(string);
 };
 
-const domStringProjectCards = (projectsArray) => {
-  let domString = '';
-  // domString +=  `<div class="row">`;
-  projectsArray.forEach((project) => {
-    if (project.available === true) {
-      // domString += `<div class="project-card" data-id="${project.id}">`;
-      // domString += `<h2 class="header">${project.title}</h2>`;
-      // domString += `<img src="${project.thumbnail}">`;
-      // domString += `<p>${project.description}</p>`;
-      // domString += `<a href="${project.url}">Try It Out Here!</a>`;
-      // domString += `<a href="${project.github}">View the GitHub for this Project.</a>`;
-      // domString += `</div>`;
+const printBlogsAll = (string) => {
+  $('#my-blogs-all').html(string);
+};
 
-      domString +=  `<div class="col s12 m6">`;
-      domString +=    `<div class="card" data-id="${project.id}>`;
-      domString +=      `<div class="card-image projects-img-holder">`;
-      domString +=        `<img class="project-img" src="${project.thumbnail}">`;
-      domString +=        `<span class="card-title">${project.title}</span>`;
-      domString +=      `</div>`;
-      domString +=      `<div class="card-content">`;
-      domString +=        `<p>${project.description}</p>`;
-      domString +=      `</div>`;
-      domString +=      `<div class="card-action">`;
-      domString +=        `<a href="${project.url}">Try It Out Here!</a>`;
-      domString +=        `<a href="${project.github}">View the GitHub for this Project.</a>`;
-      domString +=      `</div>`;
-      domString +=    `</div>`;
-      domString +=  `</div>`;
-    }
+const domStringProjectCardsAll = (projectsArray) => {
+  let domString = '';
+  projectsArray.forEach((project) => {
+    domString +=  `<div class="col s12 m6">`;
+    domString +=    `<div class="card" data-id="${project.id}">`;
+    domString +=      `<div class="card-image projects-img-holder">`;
+    domString +=        `<img class="project-img" src="${project.thumbnail}">`;
+    domString +=        `<span class="card-title">${project.title}</span>`;
+    domString +=      `</div>`;
+    domString +=      `<div class="card-content">`;
+    domString +=        `<p>${project.description}</p>`;
+    domString +=      `</div>`;
+    domString +=      `<div class="card-action">`;
+    domString +=        `<a href="${project.url}">Try It Out Here!</a>`;
+    domString +=        `<a href="${project.github}">View the GitHub for this Project.</a>`;
+    domString +=      `</div>`;
+    domString +=    `</div>`;
+    domString +=  `</div>`;
   });
-  // domString +=  `</div>`;
+  printProjectsAll(domString);
+};
+
+const domStringProjectCardsFrontPage = (projectsArray) => {
+  let domString = '';
+  projectsArray.forEach((project) => {
+    domString +=  `<div class="row" data-id="${project.id}">`;
+    domString +=      `<div class="card-image-front-page projects-img-holder col s12 m6">`;
+    domString +=        `<img class="project-img" src="${project.thumbnail}">`;
+    domString +=      `</div>`;
+    domString +=      `<div class="card col s12 m6">`;
+    domString +=        `<div class="card-content card-content-front-page">`;
+    domString +=          `<span class="card-title">${project.title}</span>`;
+    domString +=          `<p>${project.description}</p>`;
+    domString +=        `</div>`;
+    domString +=        `<div class="card-action">`;
+    domString +=          `<a href="${project.url}">Try It Out Here!</a>`;
+    domString +=          `<a href="${project.github}">View the GitHub for this Project.</a>`;
+    domString +=        `</div>`;
+    domString +=      `</div>`;
+    domString +=   `</div>`;
+  });
   printProjects(domString);
 };
 
@@ -87,8 +101,13 @@ const printProjects = (string) => {
   $('#my-projects').html(string);
 };
 
+const printProjectsAll = (string) => {
+  $('#my-projects-all').html(string);
+};
+
 module.exports = {
   domStringBlogPostsAll,
   domStringBlogPostsFrontPage,
-  domStringProjectCards,
+  domStringProjectCardsAll,
+  domStringProjectCardsFrontPage,
 };
