@@ -13,14 +13,18 @@ const getKeyFB = () => {
 };
 
 const retrieveKeys = () => {
-  getKeyFB()
-    .then((results) => {
-      setConfigFireBase(results.firebase);
-      firebase.initializeApp(results.firebase);
-    })
-    .catch((error) => {
-      console.error('Error getting Firebase Key', error);
-    });
+  return new Promise((resolve, reject) => {
+    getKeyFB()
+      .then((results) => {
+        setConfigFireBase(results.firebase);
+        firebase.initializeApp(results.firebase);
+        resolve();
+      })
+      .catch((error) => {
+        console.error('Error getting Firebase Key', error);
+        reject();
+      });
+  });
 };
 
 module.exports = {
