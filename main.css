@@ -1,25 +1,29 @@
 body {
-    background: #BEBAB4;
     color: #22232A;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-.main-nav li {
-    text-align: center;
-    list-style: none;
-    display: inline;
+/* Navigation Bar */
+
+.nav-wrapper .brand-logo {
+    color: rgb(26, 25, 25);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3em;
 }
 
-
-.main-nav a {
-    color: #22232A;
-    margin-right: 10px;
-    width: 100px;
-    height: 25px;
+.nav-wrapper {
+    padding-right: 10px;
+    background-color: #FAFAFA;
+    opacity: 100%;
 }
 
-.main-nav a:hover {
-    color: #F7F7F6;
-    background-color: #22232A;
+.nav-wrapper a {
+    color: rgb(132, 132, 133);
+}
+
+.nav-wrapper a:hover {
+    color: #FAFAFA;
+    background-color: rgb(132, 132, 133);
 }
 
 .main-nav a:active {
@@ -27,17 +31,92 @@ body {
     padding-right: 5px;
 }
 
-.header {
+/* Header */
+
+#main-header {
+    background-image: url('img/sarah-sosiak-298060-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    width: 100%;
+    position: relative;
+}
+
+.header-text {
+    font-family: 'Nanum Gothic', sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+h1 {
+    margin-top: 150px;
+    padding: 0;
+    color: rgb(30, 121, 42);
+}
+
+/* About Me */
+
+#about-me-container {
+    margin-top: 200px;
+}
+
+.divider-header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.divider-header h3::before {
+    margin-right: 10px;
+}
+
+.divider-header h3::after {
+    margin-left: 10px;
+}
+
+.divider-header h3:before,
+.divider-header h3:after {
+    background-color: #E5E5E5;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    margin: 0 15px 0 15px;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.about-me-item {
+    text-align: center;
+}
+
+.about-me-icon {
+    font-size: 95px;
+}
+
+/* Jobs */
+
+.job-header {
     position: relative;
     color: #020104;
 }
 
 /************** Blogs ********************/
 
+#blog-container {
+    margin-top: 200px;
+}
+
 .blog-post {
     width: 80%;
     margin: 50px auto 0;
-    border-bottom: solid 2px #F7F7F6;
+    border-bottom: solid 2px rgb(132, 132, 133);
 }
 
 .blog-entry {
@@ -45,12 +124,80 @@ body {
     text-align: justify;
 }
 
-.blog-title {
-    display: inline;
+.blog-post-front {
+    max-height: 377px;
+    margin-bottom: 40px;
 }
 
-.blog-date {
-    display: inline;
-    position: absolute;
+.blog-post-front .blog-date {
+    border-bottom: solid 2px rgb(132, 132, 133);
+}
+
+.blog-post-front h5 {
+    margin-top: 40px;
+}
+
+.blog-post-front h5,
+.blog-post-front .blog-date {
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Projects */
+
+#project-container {
+    margin-top: 200px;
+}
+
+#project-background {
+    display: block;
+    position: relative;
+}
+
+#project-background::after {
+    content: "";
+    background: url(img/erol-ahmed-296514-unsplash.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
     right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#my-projects {
+    padding-top: 50px;
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project-card-front-page {
+    height: 590px;
+}
+
+.card-image-front-page img {
+    min-height: 350px;
+}
+
+.card-content-front-page {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(86, 168, 97);
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: whitesmoke;
+}
+
+.footer-copyright .container {
+    color: rgb(132, 132, 133);
 }

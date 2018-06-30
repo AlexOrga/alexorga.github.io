@@ -1,16 +1,40 @@
 const {getAllBlogs,} = require('./firebaseAPI');
-const {domStringBlogPosts,} = require('./dom');
+const {domStringBlogPostsAll, domStringBlogPostsFrontPage,} = require('./dom');
 
-const populateBlogs = () => {
+const populateBlogsFrontPage = () => {
   getAllBlogs()
     .then((blogsArray) => {
-      domStringBlogPosts(blogsArray);
+      domStringBlogPostsFrontPage(blogsArray);
+      limitBlogTextFrontPage();
     })
     .catch((err) => {
       console.error('Error loading blog posts', err);
     });
 };
 
+const populateBlogsAll = () => {
+  getAllBlogs()
+    .then((blogsArray) => {
+      domStringBlogPostsAll(blogsArray);
+    })
+    .catch((err) => {
+      console.error('Error loading blog posts', err);
+    });
+};
+
+const limitBlogTextFrontPage = () => {
+  $(document).ready(function () {
+    $('.blog-text').each(function (i) {
+      const len = $(this).text().trim().length;
+      if (len > 400) {
+        $(this).text($(this).text().substr(0,400) + '...');
+      }
+    });
+  });
+};
+
 module.exports = {
-  populateBlogs,
+  populateBlogsFrontPage,
+  populateBlogsAll,
+  limitBlogTextFrontPage,
 };

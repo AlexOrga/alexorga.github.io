@@ -82,9 +82,9 @@
   "projects": [
     {
         "title": "Local Weather",
-        "thumbnail": "https://XXX.jpg",
-        "description": "This is a product and technical description for the project",
-        "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS, Version Control with Github",
+        "thumbnail": "https://raw.githubusercontent.com/AlexOrga/local-weather/master/screenshots/Screen%20Shot%202018-06-29%20at%207.43.17%20PM.png",
+        "description": "An app that allows it's user to search for the current weather of an entered Zip Code.  Options are also available to view a 5 Day Forecast or a 3 Day Forecast for the same Zip Code.",
+        "technologiesUsed": "API's, jQuery, AJAX and JSON, Task Automation, CSS, Version Control with Github",
         "available": true,
         "url": "https://local-weather-62a20.firebaseapp.com",
         "github": "https://github.com/AlexOrga/local-weather"
@@ -92,20 +92,20 @@
     {
         "title": "Chatty",
         "thumbnail": "https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-hylophobia/master/screenshots/multipleUsers.PNG",
-        "description": "This is a product and technical description for the project",
-        "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+        "description": "A chat window which, when a message is sent, registers and displays the message along with who sent it and a timestamp of when it was sent.  Don't like what you said earlier? No problem, you can totally edit that message or delete it all together, like it never happened ;). ",
+        "technologiesUsed": "jQuery, JSON, Task Automation, CSS, Version Control with Github",
         "available": true,
-        "url": "https://XXX.firebaseapp.com",
+        "url": "https://chatty-4ba99.firebaseapp.com",
         "github": "https://github.com/AlexOrga/chatty-hylophobia"
     },
     {
         "title": "Adoption Website",
         "thumbnail": "https://raw.githubusercontent.com/AlexOrga/adoption-website/master/screenshots/Adopt2.png",
-        "description": "This is a product and technical description for the project",
-        "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+        "description": "Want to find a kitty, dogg-o, or dinosaur that you can adopt?  Look no further because this adoption website has everything you could ask for.  Narrow down your companionship search to which species you find most desirable and scroll through our stock of potential new best-friends for you!",
+        "technologiesUsed": "jQuery, JSON, Task Automation, CSS, Version Control with Github",
         "available": true,
-        "url": "https://XXX.firebaseapp.com",
+        "url": "https://adoption-website.firebaseapp.com",
         "github": "https://github.com/AlexOrga/adoption-website"
     }
-  ]
+]
 }
